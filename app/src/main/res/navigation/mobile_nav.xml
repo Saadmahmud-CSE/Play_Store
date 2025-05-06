@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_games">
+
+    <fragment
+        android:id="@+id/navigation_games"
+        android:name="com.example.playstoreapp.GamesFragment"
+        android:label="Games"
+        tools:layout="@layout/fragment_games" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_apps"
+        android:name="com.example.playstoreapp.AppsFragment"
+        android:label="Apps"
+        tools:layout="@layout/fragment_apps" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.playstoreapp.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" >
+
+    </fragment>
+
+</navigation>
